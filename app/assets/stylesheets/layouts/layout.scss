@@ -1,0 +1,20 @@
+@import "partials/colors";
+
+.l-header {
+  width: 100%;
+  background-color: $base-color;
+  height: 54px;
+}
+
+.l-footer {
+  width: 100%;
+  background-color: $base-color;
+  padding: 20px 0 10px 0;
+  color: $font-color2;
+  margin: auto;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

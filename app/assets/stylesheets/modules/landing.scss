@@ -1,0 +1,43 @@
+@import "partials/colors";
+
+.main-visual {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: image-url('landings/header.jpg');
+  background-attachment: fixed;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 15%;
+  }
+}
+
+.about {
+  background-color: $background-color2;
+  color: $font-color1;
+  padding: 80px;
+  text-align: center;
+}
+
+.function {
+  background-color: $background-color1;
+  padding: 80px 80px 185px 80px;
+  text-align: center;
+
+  @at-root {
+    &-images {
+      width: 100%;
+      display: table;
+      margin-top: 60px;
+      table-layout: fixed;
+    }
+
+    &-image {
+      display: table-cell;
+      width: 100%;
+    }
+  }
+}
